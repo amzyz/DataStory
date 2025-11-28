@@ -14,7 +14,7 @@ seaborn>=0.12
 plotly>=5.18
 
 # Images / HTTP requests
-Pillow>=10.0
+Pillow<10
 requests>=2.31
 
 
