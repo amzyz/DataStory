@@ -18,7 +18,7 @@ I see a lot of discourse on Twitter (now X) about how this topic is sensationali
 """) 
 
 img_url = "https://i.imgur.com/1OgcrQJ.jpeg"  
-st.image(img_url, caption="Twitter 'Discourse'", use_container_width=True)
+st.image(img_url, caption="Twitter 'Discourse'")
 
 
 st.write(""" This data story will take you through my research process: from the initial ideas stated, to the data I was able to find (and what I did _not_ find), and the ways in which the data reshaped my research questions as I moved forward. 
@@ -174,7 +174,7 @@ Also, I've noticed that some data does not really take non-binary people into ac
 This process was arduous, surprisingly so. I had to get creative to get this data to be usable for the purposes of this project. In the screenshot here, you can see my cross-tabulation data was not exported correctly into excel, which I could not figure out for the life of me. """)
 
 img_url = "https://i.imgur.com/YXLHhZu.png"  
-st.image(img_url, caption="Excel cell with html??", use_container_width=True)
+st.image(img_url, caption="Excel cell with html??")
 
 
 st.write("""Because of this issue, I decided I would take the data given by the cross-tabulation function and manually insert it into a dataframe so I can create visualizations. I'm picking variables like socialization with friends, number of friends, number of times they call or visit friends, etc. in the GSS survey[3] to determine socialization levels and directly compare how men and women behave within each socialization category. The reason I am choosing these variables is because I want to see if there are any gendered differences in how people socialize. These are the columns I would filter the entire dataset down to, and I would filter the rows by gender.
