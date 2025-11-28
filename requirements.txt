@@ -1,7 +1,20 @@
+# Streamlit for the app interface
 streamlit==1.26.0
-matplotlib==3.8.0
-pandas==2.1.0
-numpy==1.26.0
-scikit-learn==1.3.0
-seaborn>=0.12.2
-plotly==5.18.0
+
+# Data processing
+pandas>=2.0
+numpy>=1.24
+
+# Machine learning
+scikit-learn>=1.3
+
+# Plotting & visualization
+matplotlib>=3.6
+seaborn>=0.12
+plotly>=5.18
+
+# Images / HTTP requests
+Pillow>=10.0
+requests>=2.31
+
+
