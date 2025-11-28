@@ -1,5 +1,4 @@
-# Streamlit for the app interface
-streamlit==1.26.0
+streamlit>=1.30
 
 # Data processing
 pandas>=2.0
@@ -14,7 +13,7 @@ seaborn>=0.12
 plotly>=5.18
 
 # Images / HTTP requests
-Pillow<10
+Pillow>=10
 requests>=2.31
 
 
